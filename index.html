@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Maze Editor</title>
+  <style>
+    body { margin: 0; background: #111; color: white; font-family: sans-serif; text-align: center; }
+    canvas { display: block; margin: 1rem auto; background: #222; border: 1px solid #444; }
+    button { margin: 0.25rem; padding: 0.5rem 1rem; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>AI Maze Game Editor</h1>
+  <div>
+    <button onclick="startAI()">Start</button>
+    <button onclick="stopAI()">Stop</button>
+    <button onclick="toggleSpeed()">Toggle Speed</button>
+  </div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="map.js"></script>
+  <script src="ai.js"></script>
+  <script src="game.js"></script>
+<script src="ai.js" data-basecode></script>
+
+</body>
+</html>
