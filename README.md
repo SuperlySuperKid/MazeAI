@@ -1,5 +1,5 @@
 # MazeAI
-Just a little thing im my free time.
+Just a little thing in my free time.
 
 Downloading:
 
